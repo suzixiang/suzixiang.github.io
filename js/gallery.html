@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles/layout.css" media="screen"/>
+</head>
+<body>
+ <h1>snapshots</h1>
+ <ul>
+  <li>
+   <a href="images/guzhuang1.jpg" onclick="showPic(this);return false;" 
+    title="The girl in white">Guzhuang1</a>
+  </li>
+  <li>
+   <a href="images/guzhuang2.jpg" onclick="showPic(this);return false;"
+    title="The girl in red">Guzhuang2</a>
+  </li>
+  <li>
+   <a href="images/guzhuang3.jpg" onclick="showPic(this);return false;"
+    title="The girl in green">Guzhuang3</a>
+  </li>
+  <li>
+  <a href="images/guzhuang4.jpg" onclick="showPic(this);return false;"
+    title="The girl in yellow">Guzhuang4</a>
+  </li>
+ </ul>
+<img id="placeholder" src="images/placeholder.gif" alt="MY Image Gallery"/>
+<p id="description">choose an image.</p>
+<script type="text/javascript" src="scripts/showPic.js"></script>
+</body>
+</html>
